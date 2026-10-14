@@ -73,7 +73,8 @@ WICHTIGE REGELN
   fehlen, keiner darf hinzuerfunden werden.
 - "beide" bei pruefungstyp/kursformat nur mit Beleg für beide Ausprägungen
   (siehe oben) - im Zweifel "unklar" statt "beide".
-- Bleibe bei Annahmen erkennbar vorsichtig (z. B. "vermutlich", "typischerweise").
+- Bleibe bei Annahmen erkennbar vorsichtig (z. B. "vermutlich", "typischerweise“).
+- Fuehre pro Anbieter hoechstens einen Seitenaufruf und nur bei Bedarf eine Websuche durch, insgesamt hoechstens 35 Aufrufe. Gib danach SOFORT das vollstaendige JSON mit allen Anbietern aus, auch wenn einzelne Felder "nicht ermittelbar" bleiben.
 - Antworte AUSSCHLIESSLICH im folgenden JSON-Format, ohne zusätzlichen Text davor
   oder danach:
 
