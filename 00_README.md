@@ -27,9 +27,9 @@ Ziel, Methodik, Ergebnisse und Reflexion stehen im Abschlussbericht.
 | `Marketing Strategie Agent.json` | Einzelflow Strategie-Agent |
 | `Marketing Content Agent.json` | Einzelflow Content-Agent |
 | `MarketingAgent_FirstOutput.json` | Erste Version der gesamten Kette |
-| `00_kampagnen_eingaben_komponente.py` | Quellcode der eigenen Komponente «Kampagnen-Eingaben» |
-| `01_prompt_recherche_A.txt`, `01_prompt_recherche_B.txt` | Prompts Recherche-Agent |
-| `02_prompt_strategie.txt`, `03_prompt_content.txt`, `04_prompt_zusammenfuehrung.txt` | Prompts Strategie, Content, Zusammenführung |
+| `kampagnen_eingaben_komponente.py` | Quellcode der eigenen Komponente «Kampagnen-Eingaben» |
+| `prompt_recherche_A.txt`, `prompt_recherche_B.txt` | Prompts Recherche-Agent |
+| `prompt_strategie.txt`, `prompt_content.txt`, `prompt_zusammenfuehrung.txt` | Prompts Strategie, Content, Zusammenführung |
 | `anbieterliste_komplett_21.csv` | Eingabeliste mit 21 Anbietern (Variante A) |
 | `Ground_Truth_Liste.pdf` | Referenzliste: 40 geprüfte Anbieter, davon 35 aufgenommen |
 | `Kampagnenplanung_Variante_A.pdf`, `Kampagnenplanung_Variante_B.pdf` | Finale Ausgaben der beiden Läufe |
