@@ -81,6 +81,7 @@ WICHTIGE REGELN
 - Bleibe bei Annahmen erkennbar vorsichtig (z. B. "vermutlich", "typischerweise").
 - Antworte AUSSCHLIESSLICH im folgenden JSON-Format, ohne zusätzlichen Text davor
   oder danach:
+- Beschraenke dich auf insgesamt hoechstens 25 Websuchen. Sobald du 8-10 Anbieter mit Beleg hast, beende die Recherche und gib sofort das JSON aus, auch wenn einzelne Felder "nicht ermittelbar" bleiben.
 
 {{
   "wettbewerber": [
