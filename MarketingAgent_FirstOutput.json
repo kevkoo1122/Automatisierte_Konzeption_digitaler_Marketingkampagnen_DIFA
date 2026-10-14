@@ -1,0 +1,1863 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-Nu2Zb",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "research_report",
+            "id": "Prompt Template-hTb3B",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-Nu2Zb{œdataTypeœ:œTextInputœ,œidœ:œTextInput-Nu2Zbœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-hTb3B{œfieldNameœ:œresearch_reportœ,œidœ:œPrompt Template-hTb3Bœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-Nu2Zb",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-Nu2Zbœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-hTb3B",
+        "targetHandle": "{œfieldNameœ:œresearch_reportœ,œidœ:œPrompt Template-hTb3Bœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-9erKh",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "strategie",
+            "id": "Prompt Template-hTb3B",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-9erKh{œdataTypeœ:œTextInputœ,œidœ:œTextInput-9erKhœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-hTb3B{œfieldNameœ:œstrategieœ,œidœ:œPrompt Template-hTb3Bœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-9erKh",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-9erKhœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-hTb3B",
+        "targetHandle": "{œfieldNameœ:œstrategieœ,œidœ:œPrompt Template-hTb3Bœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-8sq0O",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "content",
+            "id": "Prompt Template-hTb3B",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-8sq0O{œdataTypeœ:œTextInputœ,œidœ:œTextInput-8sq0Oœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-hTb3B{œfieldNameœ:œcontentœ,œidœ:œPrompt Template-hTb3Bœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-8sq0O",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-8sq0Oœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-hTb3B",
+        "targetHandle": "{œfieldNameœ:œcontentœ,œidœ:œPrompt Template-hTb3Bœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt Template",
+            "id": "Prompt Template-hTb3B",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "LanguageModelComponent-ThskC",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt Template-hTb3B{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-hTb3Bœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-LanguageModelComponent-ThskC{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-ThskCœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt Template-hTb3B",
+        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-hTb3Bœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "LanguageModelComponent-ThskC",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-ThskCœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LanguageModelComponent",
+            "id": "LanguageModelComponent-ThskC",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-amE2c",
+            "inputTypes": [
+              "Data",
+              "JSON",
+              "DataFrame",
+              "Table",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__LanguageModelComponent-ThskC{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-ThskCœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-amE2c{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-amE2cœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "LanguageModelComponent-ThskC",
+        "sourceHandle": "{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-ThskCœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-amE2c",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-amE2cœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "TextInput-Nu2Zb",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get user text inputs.",
+            "display_name": "research_report",
+            "documentation": "https://docs.langflow.org/text-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "use_global_variable"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": true,
+            "lf_version": "1.12.0",
+            "metadata": {
+              "code_hash": "2811c0e0496f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.text.TextInputComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "replacement": [
+              "input_output.ChatInput"
+            ],
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.io.text import TextComponent\nfrom lfx.io import BoolInput, MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextInput\"\n    legacy = True\n    replacement = [\"input_output.ChatInput\"]\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n        BoolInput(\n            name=\"use_global_variable\",\n            display_name=\"Use Global Variable\",\n            info=\"Enable to select from global variables (shows globe icon). Disables multiline editing.\",\n            value=False,\n            advanced=True,\n            real_time_refresh=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None) -> dict:\n        if field_name == \"use_global_variable\":\n            if field_value:\n                # Enable global variable mode: single-line with password masking and globe dropdown\n                build_config[\"input_value\"][\"multiline\"] = False\n                build_config[\"input_value\"][\"password\"] = True\n            else:\n                # Default mode: multiline text editing\n                build_config[\"input_value\"][\"multiline\"] = True\n                build_config[\"input_value\"][\"password\"] = False\n        return build_config\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{\n  \"wettbewerber\": [\n    {\n      \"anbieter\": \"Lern-Forum.ch\",\n      \"url\": \"https://www.lern-forum.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Eigene Rubriken für 'Langgymnasium' und 'Kurzgymnasium & HMS' sowie 'Vorkurs 4./5./Sek. 1' und 'Gymivorbereitung Ferienkurse'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, ca. 4.5 Sterne bei rund 30 Bewertungen für Standort Zürich Mühlebachstrasse\",\n        \"instagram_facebook\": \"wenig aktiv\",\n        \"google_ads_praesenz\": \"Hinweise vorhanden\"\n      }\n    },\n    {\n      \"anbieter\": \"Lernstudio\",\n      \"url\": \"https://www.lernstudio.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Kursangebote 'Gut vorbereitet ans Langgymnasium' (15/22 Wochen), 'Gut vorbereitet ans Kurzgymnasium' und 'Ferienkurse 2027 / Intensivkurs'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, mehrere Standorte in Zürich (u. a. Scheuchzerstrasse, Oerlikon, Stettbach)\",\n        \"instagram_facebook\": \"aktiv\",\n        \"google_ads_praesenz\": \"Hinweise vorhanden\"\n      }\n    },\n    {\n      \"anbieter\": \"Gymivorbereitung Zürich\",\n      \"url\": \"https://gymivorbereitung-zuerich.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Separate Angebotsseiten für 'Langzeitgymnasium (6. Klasse)' und 'Kurzzeitgymnasium (2./3. Sek)' mit 'Halbjahreskurs' und 'Sportferienkurs ZAP Intensivkurs'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, Standorte Zürich HB und Stadelhofen auf Google Maps gelistet\",\n        \"instagram_facebook\": \"nicht auffindbar\",\n        \"google_ads_praesenz\": \"Hinweise vorhanden\"\n      }\n    },\n    {\n      \"anbieter\": \"Nachhilfe Akademie\",\n      \"url\": \"https://nachhilfe-akademie.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Unterseiten 'Gymivorbereitung Langzeitgymnasium' und 'Gymivorbereitung Kurzzeitgymnasium' mit 'Wöchentlicher Vorbereitungskurs' und 'Ferienkurse'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, Google Unternehmensprofil für Zürich\",\n        \"instagram_facebook\": \"wenig aktiv\",\n        \"google_ads_praesenz\": \"Hinweise vorhanden\"\n      }\n    },\n    {\n      \"anbieter\": \"LearningCulture\",\n      \"url\": \"https://www.learningculture.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"Vorkurs\",\n      \"beleg\": \"Unterseiten 'Langgymi Vorbereitungskurse (ZAP1)' und 'Kurzgymi-Kurs'; ausschliesslich strukturierte Vorkurse (Teil 1/1+ und Jahreskurse), keine reinen ZAP-Ferienintensivkurse ausgewiesen\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, ca. 4.9 Sterne bei über 40 Bewertungen\",\n        \"instagram_facebook\": \"aktiv\",\n        \"google_ads_praesenz\": \"Hinweise vorhanden\"\n      }\n    },\n    {\n      \"anbieter\": \"fit4school Zürich\",\n      \"url\": \"https://fit4school.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Angebotsseite 'ZAP-Vorbereitung fürs Lang- und Kurzzeitgymnasium' mit '15 Kurstage von Oktober bis Februar' sowie 'fit4school Ferienkurse / Intensivtrainings'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, Center Zürich-Enge auf Google Maps bewertet\",\n        \"instagram_facebook\": \"aktiv\",\n        \"google_ads_praesenz\": \"Hinweise vorhanden\"\n      }\n    },\n    {\n      \"anbieter\": \"Schlaumacher\",\n      \"url\": \"https://www.schlaumacher.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Kursseiten 'Gymi-Aufnahmeprüfung (Langzeitgymnasium)' und 'Gymi-Aufnahmeprüfung (Kurzzeitgymnasium)' mit 'wöchentlich 2-3 Stunden ab Herbst' und '1. Sportferienwoche Intensivkurs'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, Standort Schifflände 26, 8001 Zürich\",\n        \"instagram_facebook\": \"aktiv\",\n        \"google_ads_praesenz\": \"nicht ermittelbar\"\n      }\n    },\n    {\n      \"anbieter\": \"Logos Lehrerteam\",\n      \"url\": \"https://www.logos-lehrerteam.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"Vorkurs\",\n      \"beleg\": \"Angebote für 'Langgymnasium im Anschluss an die 6. Primarschule' und 'Kurzgymnasium im Anschluss an die 2. Sekundarschule'; Durchführung als mehrmonatige Präsenzkurse (Start März/Juni/August bis März), keine Ferien-Intensivkurse ausgewiesen\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, Standorte in Zürich-City und Zürich-Oerlikon gelistet\",\n        \"instagram_facebook\": \"wenig aktiv\",\n        \"google_ads_praesenz\": \"keine Hinweise\"\n      }\n    },\n    {\n      \"anbieter\": \"MYTUTOR Zürich\",\n      \"url\": \"https://mytutor-zuerich.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Kursangebote für 'Aufnahmeprüfungen Langgymnasium' und 'Kurzgymnasium' als kontinuierliche Kurse sowie 'Intensiv-Prüfungsvorbereitung in den Sportferien'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, Standort Hagenholzstrasse 81a, Zürich Oerlikon\",\n        \"instagram_facebook\": \"aktiv\",\n        \"google_ads_praesenz\": \"Hinweise vorhanden\"\n      }\n    },\n    {\n      \"anbieter\": \"LernCenter Zürich\",\n      \"url\": \"https://lerncenter.ch\",\n      \"pruefungstyp\": \"beide\",\n      \"kursformat\": \"beide\",\n      \"beleg\": \"Angebotsrubriken für 'Vorkurs Langgymnasium' und 'Vorkurs Kurzgymnasium' sowie 'Intensivferienkurse Prüfungsvorbereitung Deutsch & Mathematik'\",\n      \"kanalpraesenz\": {\n        \"google_business_profile\": \"vorhanden, Standort Asylstrasse 35, 8032 Zürich\",\n        \"instagram_facebook\": \"wenig aktiv\",\n        \"google_ads_praesenz\": \"keine Hinweise\"\n      }\n    }\n  ],\n  \"segment_dichte_matrix\": {\n    \"langzeit_vorkurs\": 10,\n    \"langzeit_intensivkurs\": 8,\n    \"kurzzeit_vorkurs\": 10,\n    \"kurzzeit_intensivkurs\": 8,\n    \"unterversorgte_nischen\": [\n      \"Spezialisierte Sportferien-Intensivblöcke exklusiv für das Kurzzeitgymnasium (viele Anbieter legen den Ferienfokus primär auf 6.-Klässler oder werfen Kurzgymi mit BMS/FMS zusammen)\",\n      \"Hybrid-Vorbereitungsmodelle mit kontinuierlicher digitaler Aufsatzkorrektur-Flatrate und persönlichem Video-Feedback zwischen den Kurstagen\",\n      \"Integrierte ZAP-Kurse mit explizitem Schwerpunkt auf Mentalcoaching, Prüfungskompetenz und Bewältigung von Prüfungsblockaden unter realem Zeitdruck\"\n    ],\n    \"uebersaettigte_segmente\": [\n      \"Klassische wöchentliche Vorkurse für das Langzeitgymnasium (6. Primarklasse) am Samstagnachmittag oder Mittwochnachmittag im Grossraum Zürich City / HB / Oerlikon\",\n      \"Standard-Sportferienkurse für das Langzeitgymnasium mit reinem Fokus auf das Durcharbeiten alter ZAP-Prüfungsserien\"\n    ]\n  },\n  \"zielgruppen_insights\": {\n    \"eltern\": [\n      \"Hoher Erfolgsdruck und Sorge vor den kantonal tiefen ZAP-Erfolgsquoten (typischerweise unter 50 %); Wunsch nach maximaler Chancengleichheit für das Kind\",\n      \"Entlastung des Familienfriedens: Auslagerung der emotionalen Belastung und Vermeidung von Konflikten beim häuslichen Lernen am Küchentisch an professionelle Lehrkräfte\",\n      \"Bedarf an Transparenz und Verlässlichkeit: Standortbestimmungen, realistische Notenhochrechnungen inklusive kantonaler Vornote und ehrliche Prognosen bezüglich der Bestehenschancen\",\n      \"Bereitschaft für signifikante Bildungsinvestitionen bei gleichzeitigen Qualitätsansprüchen an kleine Gruppengrössen (max. 6-8 Teilnehmende) und zentrale, sichere Erreichbarkeit (z. B. Nähe Zürich HB oder Bahnhof Oerlikon)\"\n    ],\n    \"schueler\": [\n      \"Hohe Belastung durch Zeitnot und Stress bei ZAP-spezifischen Aufgabenformaten (insbesondere Textaufgaben in Mathematik und Verfassen eines strukturierten Aufsatzes in 45 Minuten)\",\n      \"Spürbare Doppelbelastung durch das Aufrechterhalten guter Schulnoten (Erfahrungsnote im Zeugnis) parallel zu Samstags- oder Ferienkursen\",\n      \"Bedürfnis nach konkreten, verständlichen Lösungsschemata und 'Prüfungstricks' statt bloss wiederholender Stoffvermittlung\",\n      \"Wunsch nach einer ermutigenden Lernatmosphäre in der Gruppe ohne Schamgefühl bei Fehlern oder Wissenslücken\"\n    ]\n  },\n  \"keywords\": [\n    \"Gymivorbereitung Zürich\",\n    \"ZAP Vorbereitungskurs Zürich\",\n    \"Gymiprüfung Langgymnasium Vorbereitung\",\n    \"Kurzgymi Vorbereitung Zürich\",\n    \"Intensivkurs Sportferien Gymiprüfung Zürich\",\n    \"Gymivorbereitung Kleingruppe Zürich HB\",\n    \"Gymikurs Samstag Zürich\",\n    \"Aufsatztraining Gymiprüfung Zürich\",\n    \"ZAP Prüfungssimulation Zürich\",\n    \"Gymivorbereitung Kosten Zürich\"\n  ]\n}"
+              },
+              "use_global_variable": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Use Global Variable",
+                "dynamic": false,
+                "info": "Enable to select from global variables (shows globe icon). Disables multiline editing.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_global_variable",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "id": "TextInput-Nu2Zb",
+        "position": {
+          "x": 488,
+          "y": 243
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-8sq0O",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get user text inputs.",
+            "display_name": "content",
+            "documentation": "https://docs.langflow.org/text-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "use_global_variable"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": true,
+            "lf_version": "1.12.0",
+            "metadata": {
+              "code_hash": "2811c0e0496f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.text.TextInputComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "replacement": [
+              "input_output.ChatInput"
+            ],
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.io.text import TextComponent\nfrom lfx.io import BoolInput, MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextInput\"\n    legacy = True\n    replacement = [\"input_output.ChatInput\"]\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n        BoolInput(\n            name=\"use_global_variable\",\n            display_name=\"Use Global Variable\",\n            info=\"Enable to select from global variables (shows globe icon). Disables multiline editing.\",\n            value=False,\n            advanced=True,\n            real_time_refresh=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None) -> dict:\n        if field_name == \"use_global_variable\":\n            if field_value:\n                # Enable global variable mode: single-line with password masking and globe dropdown\n                build_config[\"input_value\"][\"multiline\"] = False\n                build_config[\"input_value\"][\"password\"] = True\n            else:\n                # Default mode: multiline text editing\n                build_config[\"input_value\"][\"multiline\"] = True\n                build_config[\"input_value\"][\"password\"] = False\n        return build_config\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "PHASE 1 - A. Google Search Ads\n\n| Nr. | Text | Zeichen |\n| :--- | :--- | :--- |\n| H1 | ZAP Vorbereitungskurs Zürich | 29 |\n| H2 | Gymivorbereitung Zürich | 24 |\n| H3 | Kleingruppen in Zürich HB | 25 |\n| H4 | Gezieltes Aufsatztraining | 25 |\n| H5 | Noten sichern ohne Streit | 25 |\n| H6 | Transparente Notenprognose | 26 |\n| H7 | Mit System durch die ZAP | 23 |\n| H8 | Persönliches Lernfeedback | 25 |\n| H9 | Jetzt Kleingruppe sichern | 25 |\n| H10 | Einstufung unverbindlich | 24 |\n| D1 | Fundierte ZAP-Vorbereitung in Kleingruppen. Entlasten Sie den Familienalltag gezielt. | 88 |\n| D2 | Mit System und Gelassenheit zur Gymiprüfung. Jetzt Platz in Kleingruppe sichern. | 83 |\n| D3 | Aufsatztraining und Notenprognose nahe Zürich HB. Jetzt unverbindlich anfragen. | 81 |\n| S1 | Kleingruppen Zürich HB | 22 |\n| S2 | Standortbestimmung ZAP | 22 |\n| S3 | Gezieltes Aufsatztraining | 25 |\n\n---\n\nPHASE 1 - B. Social-Media-Anzeigen\n\n**Variante A (Fokus Familienfrieden & Entlastung)**\n* **Haupttext:** Schluss mit ZAP-Tränen am Küchentisch: Mit System und Gelassenheit begleiten wir Ihr Kind sicher durch die ZAP-Vorbereitung. Häusliches Lernen führt oft zu Frust. Unsere kontinuierlichen Vorkurse in Kleingruppen nahe Zürich HB bieten individuelle Aufsatzfeedbacks und transparente Notenprognosen. So sichern Sie Noten und wahren den Familienfrieden. Jetzt unverbindlich Einstufung anfordern! (386 Zeichen)\n* **Überschrift:** Kein Stress am Küchentisch (26 Zeichen)\n* **Beschreibung:** ZAP-Vorkurse in Kleingruppen (28 Zeichen)\n* **Button-Text:** Mehr erfahren\n* **Bildidee:** Ein 4-teiliges Bild-Karussell, das typische Konfliktsituationen beim Lernen zu Hause aufgreift und der ruhigen, strukturierten Arbeitsatmosphäre in einer professionellen Kleingruppe gegenüberstellt.\n\n**Variante B (Fokus Methodik & Notensicherung)**\n* **Haupttext:** Die kantonale ZAP-Quote fordert klare Vorbereitung: Wir entlasten Ihre Familie mit strukturiertem Lernen in Kleingruppen. Wenn der Druck auf die Schulnoten steigt, gerät das Üben daheim schnell zum Konflikt. Unser ZAP-Vorkurs kombiniert gezieltes Aufsatztraining mit fundierter Notenprognose und persönlichem Feedback. Schützen Sie den Familienalltag: Jetzt Platz in Kleingruppe sichern! (388 Zeichen)\n* **Überschrift:** ZAP-Vorbereitung mit System (27 Zeichen)\n* **Beschreibung:** Kleingruppen nahe Zürich HB (27 Zeichen)\n* **Button-Text:** Mehr erfahren\n* **Bildidee:** Ein Bild-Karussell mit übersichtlichen Infografik-Elementen zu transparenten Leistungsprognosen und Aufnahmen von konzentriert arbeitenden Jugendlichen im Kursraum.\n\n---\n\nPHASE 1 - C. Blogartikel\n\n# Der ZAP-Notenrechner für Zürich: Wie die Vornote zählt und wie Sie Ihr Kind ohne Streit am Küchentisch unterstützen\n\nDie kantonale Erfolgsquote bei der Zentralen Aufnahmeprüfung (ZAP) im Kanton Zürich liegt erfahrungsgemäss oft unter 50 Prozent. Diese Realität erzeugt verständlicherweise Anspannung – sowohl bei den Primarschülerinnen und Primarschülern als auch bei ihren Eltern. Wenn das Zwischenzeugnis näher rückt und jede Zehntelnote zählt, verwandelt sich der heimische Küchentisch nicht selten in eine Konfliktzone. Doch wie setzt sich das Gesamtergebnis zusammen, welche Rolle spielt die Vornote aus der Primarschule, und wie lässt sich die Vorbereitung strukturieren, ohne den Familienfrieden aufs Spiel zu setzen?\n\n### Die Mechanik der kantonalen ZAP: Welche Rolle die Vornote spielt\n\nFür den Übertritt ins Langzeitgymnasium zählt nicht allein die Punktzahl am Prüfungstag. Das kantonale System sieht vor, dass die Erfahrungsnote aus dem Zeugnis zu gleichen Teilen wie die Prüfungsnoten in Deutsch und Mathematik in die Gesamtwertung einfliesst. Diese Regelung belohnt kontinuierliche schulische Leistungen über das gesamte Semester hinweg.\n\nGleichzeitig baut dieses Verfahren einen doppelten Erwartungsdruck auf: Einerseits müssen die laufenden Noten in der Primarschule gehalten oder verbessert werden, andererseits verlangt die ZAP ein Prüfungsformat, das über die regulären Unterrichtsinhalte hinausgeht. Wer sich allein auf das Schulzeugnis verlässt, wird von den komplexen Aufgabenstellungen der Prüfung überrascht; wer nur Prüfungsserien büffelt, riskiert ein Absacken der Vornote.\n\n### Warum das Lernen am Küchentisch oft im Frust endet\n\nViele Eltern versuchen verständlicherweise, den Vorbereitungsprozess selbst in die Hand zu nehmen. Am Abend werden alte Prüfungsserien korrigiert, Aufsätze besprochen und Textaufgaben gerechnet. Was gut gemeint ist, führt im Familienalltag jedoch regelmässig zu Überforderung. Eltern geraten in eine Doppelrolle zwischen fürsorglicher Bezugsperson und strenger Lehrkraft. \n\nKritik am Schreibstil oder Verständnisschwierigkeiten in der Mathematik führen rasch zu Frustration und Tränen. Das Kind fühlt sich kontrolliert, die Eltern fühlen sich hilflos. Eine strukturierte Gymivorbereitung in Zürich setzt genau an diesem Punkt an: Sie verlagert das Üben aus dem häuslichen Umfeld in einen professionellen Rahmen.\n\n### Systematische Entlastung: Kleingruppen und Aufsatztraining\n\nEin fundierter ZAP Vorbereitungskurs Zürich setzt auf klare Strukturen statt endloses Pauken. Das kontinuierliche Arbeiten in einer Kleingruppe nahe Zürich HB ermöglicht ein Lernklima, in dem Fragen ohne Scheu gestellt werden können. Anstelle diffuser Wiederholungen stehen konkrete Schemata im Zentrum:\n* **Gezieltes Aufsatztraining:** Schülerinnen und Schüler erlernen den Aufbau ansprechender Texte und erhalten transparentes, detailliertes Feedback zu Sprachrichtigkeit und Ausdruck.\n* **Transparente Standortbestimmung:** Regelmässige Simulationen spiegeln den tatsächlichen Leistungsstand wider und verbinden die Prüfungsergebnisse mit der aktuellen Vornote zu einer realistischen Prognose.\n* **Methodische Sicherheit:** Mathematische Textaufgaben werden systematisch zerlegt, sodass Lösungswege reproduzierbar werden.\n\n### Transparenz bei Vorbereitung und Kosten\n\nWenn Eltern nach «Gymivorbereitung Kosten Zürich» suchen, geht es meist um mehr als den finanziellen Aufwand: Es geht um den realen Mehrwert für das Wohlbefinden des Kindes. Eine qualitativ hochwertige Vorbereitung verspricht keine Wunder, sondern liefert verlässliche Orientierung. Sie entlastet die Eltern-Kind-Beziehung und gibt den Schülerinnen und Schülern das Werkzeug an die Hand, ihre Stärken im entscheidenden Moment abzurufen.\n\n### Zusammenfassung\n\nDie Vorbereitung auf die ZAP erfordert eine kluge Balance aus Schulleistung und Prüfungskompetenz. Durch eine kontinuierliche Begleitung ausserhalb der eigenen vier Wände gewinnen Familien ihre Ruhe zurück, während Kinder mit System und Gelassenheit an ihren fachlichen Fähigkeiten arbeiten.\n\nLaden Sie unsere ZAP-Checkliste herunter oder buchen Sie eine kostenlose Standortbestimmung.\n\n---\n\nPHASE 2 - A. Google Search Ads\n\n| Nr. | Text | Zeichen |\n| :--- | :--- | :--- |\n| H1 | Intensivkurs Sportferien ZAP | 28 |\n| H2 | Kurzgymi Vorbereitung Zürich | 28 |\n| H3 | ZAP Prüfungssimulation HB | 25 |\n| H4 | Prüfungsangst aktiv abbauen | 28 |\n| H5 | ZAP-Endspurt Sportferien | 25 |\n| H6 | Sportferienblock 15.–19.2. | 26 |\n| H7 | Sportferienblock 22.–26.2. | 26 |\n| H8 | Kleingruppe in Zürich HB | 25 |\n| H9 | Fit für den 8. März | 19 |\n| H10 | Jetzt Intensivblock wählen | 26 |\n| D1 | Sportferien-Intensivkurs Zürich: In 5 Tagen Prüfungsangst abbauen und ZAP trainieren. | 84 |\n| D2 | Gezieltes Zeitmanagement und ZAP-Prüfungssimulation. Jetzt letzte Plätze buchen! | 82 |\n| D3 | Gezielte Vorbereitung für das Kurzgymnasium nahe Zürich HB. Jetzt Kursplatz buchen! | 82 |\n| S1 | Sportferien 15.–19.02. | 22 |\n| S2 | Sportferien 22.–26.02. | 22 |\n| S3 | ZAP Prüfungssimulation | 22 |\n\n---\n\nPHASE 2 - B. Social-Media-Anzeigen\n\n**Variante A (Fokus Schüler:innen: Zeitdruck & Lösungsstrategien)**\n* **Haupttext:** 45 Minuten für den ZAP-Aufsatz und Blackout bei Mathe-Textaufgaben? In den Sportferien lernst du, wie du ruhig bleibst. Mit gezieltem Zeitmanagement, klaren Lösungsschemata und unserer echten Prüfungssimulation verwandelst du Prüfungsangst in Prüfungskompetenz. 100 % massgeschneidert fürs Kurzgymi ohne Durchmischung. Sichere dir deinen Platz im Sportferienblock (15.–19.2. oder 22.–26.2.)! (379 Zeichen)\n* **Überschrift:** Keine Panik vor der ZAP (23 Zeichen)\n* **Beschreibung:** Sportferienkurs in Zürich (25 Zeichen)\n* **Button-Text:** Jetzt anmelden\n* **Bildidee:** Ein dynamisches Video im Split-Screen-Format, das links den hektischen Blick auf eine Stoppuhr beim Verfassen eines Aufsatzes zeigt und rechts das strukturierte, gelassene Abarbeiten nach klarem Schema.\n\n**Variante B (Fokus Schüler:innen: Endspurt & Prüfungskompetenz)**\n* **Haupttext:** Prüfungsangst in Prüfungskompetenz verwandeln: Nutze die Sportferien für den finalen Intensivkick kurz vor dem 8. März. Gemeinsam knacken wir knifflige Mathe-Aufgaben, optimieren deinen Textaufsatz unter Realzeit und stärken deine Nerven mit mentalen Strategien. Vollständig ausgerichtet auf das Kurzgymi. Sichere dir deinen Platz im Sportferienblock (15.–19.2. oder 22.–26.2.)! (376 Zeichen)\n* **Überschrift:** ZAP-Intensivkurs Kurzgymi (25 Zeichen)\n* **Beschreibung:** Prüfungssimulation Zürich (25 Zeichen)\n* **Button-Text:** Jetzt anmelden\n* **Bildidee:** Eine Jugendliche löst konzentriert eine simulierte ZAP-Serie im Kursraum nahe Zürich HB, während Einblendungen von Prüfungszeit und Lösungsschritten den strukturierten Ablauf illustrieren.\n\n---\n\nPHASE 2 - C. Blogartikel\n\n# Sportferien-Countdown zur ZAP: Wie Schüler in 5 Intensivtagen Prüfungsblockaden und Zeitnot überwinden\n\nWenn das Zwischenzeugnis Ende Januar vorliegt, beginnt für viele Jugendliche und ihre Eltern die intensivste Phase des Schuljahres: der Endspurt vor der Zentralen Aufnahmeprüfung am 8. März 2027. Besonders Sekundarschülerinnen und Sekundarschüler stehen unter einer enormen Doppelbelastung. Einerseits müssen die anspruchsvollen Schulfächer weiter bedient werden, andererseits verlangt die ZAP spezifische Fähigkeiten, die im regulären Unterricht kaum trainiert werden. Die zwei Sportferienwochen im Februar bieten das ideale Zeitfenster, um Wissenslücken zu schliessen, Zeitmanagement einzuüben und mentale Stärke aufzubauen.\n\n### Der Faktor Zeit: Warum 45 Minuten für den Aufsatz trainiert werden müssen\n\nEine der grössten Hürden bei der Aufnahmeprüfung ist nicht zwingend fehlendes Fachwissen, sondern der strikte Zeitrahmen. Für den Deutschaufsatz stehen exakt 45 Minuten zur Verfügung. In dieser kurzen Zeitspanne müssen eine zündende Idee entwickelt, der Text logisch gegliedert, sprachlich präzise formuliert und auf Rechtschreibung überprüft werden. \n\nOhne ein eingespieltes Zeitschema geraten viele Jugendliche in Panik. Ein gezieltes Aufsatztraining in den Sportferien setzt genau hier an: Schülerinnen und Schüler lernen, die 45 Minuten präzise einzuteilen – fünf Minuten für die Gliederung, 35 Minuten für das Schreiben und fünf Minuten für die Endkorrektur. Diese Routine nimmt den Schrecken vor dem weissen Blatt.\n\n### Realitätsnahe ZAP-Prüfungssimulation gegen Blockaden\n\nAuch in der Mathematik entscheidet oft die Nervenstärke. Textaufgaben erfordern nicht nur Rechenkompetenz, sondern präzises Textverständnis. Wenn unter Stress eine Blockade eintritt, verstreicht wertvolle Zeit. \n\nEin Intensivkurs Sportferien Gymiprüfung Zürich nutzt vollständige ZAP Prüfungssimulationen unter realen Prüfungsbedingungen. Schülerinnen und Schüler erleben den Ablauf im Vorfeld: vom pünktlichen Start über den Umgang mit der Stoppuhr bis hin zu Techniken, wie man bei schwierigen Teilaufgaben ruhig weiterarbeitet. Ergänzt wird dieses Training durch gezieltes Mentalcoaching, das Werkzeuge zur Stressbewältigung vermittelt. So lassen sich Prüfungsblockaden lösen, bevor sie am 8. März zum Problem werden.\n\n### Gezielte Kurzgymi-Vorbereitung ohne Durchmischung\n\nEin zentraler Erfolgsfaktor für Sekundarschülerinnen und Sekundarschüler ist ein klar abgegrenztes Lernumfeld. Die Kurzgymi Vorbereitung unterscheidet sich massgeblich von den Anforderungen der Primarstufe oder anderer Bildungsgänge wie BMS und FMS. Die Textanalysen sind tiefgründiger, die mathematischen Abstraktionen anspruchsvoller. Eine Vorbereitung in homogenen Gruppen stellt sicher, dass jede Trainingsminute exakt den Anforderungen des Kurzgymnasiums entspricht.\n\n### Zusammenfassung\n\nFünf konzentrierte Tage in den Sportferien reichen aus, um aus Unsicherheit Handlungsfähigkeit zu machen. Durch die Kombination aus Fachvertiefung, striktem Zeitmanagement und Prüfungssimulationen verwandeln Jugendliche ihre Prüfungsangst in greifbare Prüfungskompetenz.\n\nJetzt für Block 1 (15.–19.02.) oder Block 2 (22.–26.02.) anmelden.\n\n---\n\nVerwendete Kernbotschaft und Anrede:\nKernbotschaft: «Mit System, Gelassenheit und persönlichem Feedback sicher durch die ZAP – für Bestnoten ohne Familienstress.»\nAnrede: Phase 1 durchgehend «Sie» (Elternfokus); Phase 2 Google Ads und Blog «Sie» (Eltern/Entscheider), Social-Media-Anzeigen «du» (Sekundarschüler:innen)."
+              },
+              "use_global_variable": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Use Global Variable",
+                "dynamic": false,
+                "info": "Enable to select from global variables (shows globe icon). Disables multiline editing.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_global_variable",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-8sq0O",
+        "position": {
+          "x": 480.5730290718451,
+          "y": 849.0808331355744
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-9erKh",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get user text inputs.",
+            "display_name": "strategie",
+            "documentation": "https://docs.langflow.org/text-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "use_global_variable"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": true,
+            "lf_version": "1.12.0",
+            "metadata": {
+              "code_hash": "2811c0e0496f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.text.TextInputComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "replacement": [
+              "input_output.ChatInput"
+            ],
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.io.text import TextComponent\nfrom lfx.io import BoolInput, MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextInput\"\n    legacy = True\n    replacement = [\"input_output.ChatInput\"]\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n        BoolInput(\n            name=\"use_global_variable\",\n            display_name=\"Use Global Variable\",\n            info=\"Enable to select from global variables (shows globe icon). Disables multiline editing.\",\n            value=False,\n            advanced=True,\n            real_time_refresh=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None) -> dict:\n        if field_name == \"use_global_variable\":\n            if field_value:\n                # Enable global variable mode: single-line with password masking and globe dropdown\n                build_config[\"input_value\"][\"multiline\"] = False\n                build_config[\"input_value\"][\"password\"] = True\n            else:\n                # Default mode: multiline text editing\n                build_config[\"input_value\"][\"multiline\"] = True\n                build_config[\"input_value\"][\"password\"] = False\n        return build_config\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "### 1. ERKENNTNISSE AUS DEM REPORT\n\n* **Extreme Marktsättigung in allen Standardsegmenten:** Alle 10 analysierten Wettbewerber bieten Vorkurse für Lang- und Kurzgymnasium an; 8 von 10 führen Intensivkurse durch (Matrix: langzeit_vorkurs = 10, langzeit_intensivkurs = 8, kurzzeit_vorkurs = 10, kurzzeit_intensivkurs = 8).\n* **Grosse Differenzierungschance über Nischen:** Unterversorgt sind exklusive Sportferienblöcke ausschliesslich für das Kurzgymnasium (ohne Vermischung mit BMS/FMS), hybride Modelle mit Video-Aufsatzfeedback sowie integriertes Mentalcoaching gegen Prüfungsangst (Nischen-Report).\n* **Google-Präsenz als Pflicht, Social Media als Differenzierungsfeld:** Fast alle relevanten Wettbewerber sind auf Google Maps (Google Business Profile) und via Google Ads präsent (\"Hinweise vorhanden\" bei 6 von 10 Anbietern). Auf Social Media (Instagram/Facebook) sind 4 Anbieter wenig aktiv oder nicht auffindbar, während 5 aktiv sind – hier besteht Differenzierungspotenzial über Content.\n* **Elternfokus: Entlastung und Erfolgschancen:** Eltern leiden unter hohem Leistungsdruck (kantonale Erfolgsquote teils unter 50 %), fürchten Konflikte am heimischen Küchentisch und fordern Standortbestimmungen, Vornoten-Einbezug sowie Kleingruppen (Zielgruppen-Insights Eltern).\n* **Schülerfokus: Zeitdruck und Stressbewältigung:** Schüler:innen kämpfen mit der Doppelbelastung aus Schulnoten und Prüfungsvorbereitung, scheitern oft am Zeitmanagement (45-Minuten-Aufsatz, Mathe-Textaufgaben) und benötigen konkrete Lösungsschemata statt blosser Stoffwiederholung (Zielgruppen-Insights Schüler).\n* **Limitiertes Kampagnenbudget:** Mit einem Gesamtbudget von CHF 2'000 über rund 6 Monate ist ein hochgradig fokussierter Einsatz zwingend, der Streuverluste vermeidet und Nischen-Keywords sowie gezielte Ads priorisiert.\n\n---\n\n### 2. POSITIONIERUNG JE SEGMENT\n\n| Segment | Wettbewerbsdichte | Einstufung | Empfohlene Positionierung / Nischenbotschaft | Budgetpriorität |\n| :--- | :--- | :--- | :--- | :--- |\n| **Langzeit-Vorkurs** | 10 (Matrix: langzeit_vorkurs) | Übersättigt (Übersättigte Segmente) | Kein Standard-Paukkurs am Samstag: Fokus auf Entlastung des Familienfriedens, kleine Gruppen, Standortbestimmung mit Vornoten-Check und integriertes Aufsatz-Feedback (Zielgruppen-Insights Eltern; Nischen). | Mittel |\n| **Langzeit-Intensivkurs** | 8 (Matrix: langzeit_intensivkurs) | Übersättigt (Übersättigte Segmente) | Differenzierung statt reinem Lösen alter Serien: Fokus auf ZAP-Prüfungssimulation unter Realzeit, Mentalcoaching gegen Prüfungsblockaden und gezielte Aufsatz-Endkorrektur (Nischen). | Mittel |\n| **Kurzzeit-Vorkurs** | 10 (Matrix: kurzzeit_vorkurs) | Übersättigt (Matrix: kurzzeit_vorkurs) | Gezieltes Training für Sekundarschüler: Bewältigung der Doppelbelastung (Schulnoten vs. ZAP), strukturierte Lösungsschemata für Mathe-Textaufgaben und Textanalyse (Zielgruppen-Insights Schüler). | Mittel |\n| **Kurzzeit-Intensivkurs** | 8 (Matrix: kurzzeit_intensivkurs) | Unterversorgt hinsichtlich Spezialisierung (Nischen) | **Top-Nische:** Exklusiver Sportferien-Intensivblock 100 % massgeschneidert fürs Kurzgymi (keine Durchmischung mit BMS/FMS/Langgymi), Fokus auf Zeitmanagement und simulierte ZAP-Bedingungen (Nischen). | Hoch |\n\n* **Übergeordnete Kernbotschaft (über alle Kanäle und Phasen):**  \n  *«Mit System, Gelassenheit und persönlichem Feedback sicher durch die ZAP – für Bestnoten ohne Familienstress.»*\n* **Akzentbotschaft Phase 1 (Start 01.09.2026, Vorkurs):**  \n  *«Fundiert vorbereiten, Noten sichern, Familienfrieden wahren: Dein kontinuierlicher ZAP-Vorkurs in Kleingruppen mit transparenter Notenprognose.»*\n* **Akzentbotschaft Phase 2 (Endspurt Sportferien 2027, Intensivkurse):**  \n  *«Prüfungsangst in Prüfungskompetenz verwandeln: Der finale Sportferien-Intensivkick mit ZAP-Simulation und Mentalcoaching kurz vor dem 8. März.»*\n\n---\n\n### 3. KANAL-MIX\n\n1. **Google Search Ads (Paid Search)**\n   * *Rolle:* Nachfrageorientierter Kernkanal (Lead-Generierung). Schöpft Eltern ab, die aktiv nach Lösungen und Kursen im Raum Zürich suchen.\n   * *Zielgruppe:* Primär Eltern (Entscheider und Zahler).\n   * *Phase:* Phase 1 und Phase 2 durchgehend geschaltet.\n   * *Begründung:* 6 von 10 Mitbewerbern nutzen aktiv Google Ads (Wettbewerber-Report). Wer bei transaktionalen Keywords wie «Gymivorbereitung Zürich» nicht sichtbar ist, verliert Anmeldungen direkt an die Konkurrenz.\n\n2. **Social Media: Instagram & Facebook (Gewichtung: 70 % Instagram / 30 % Facebook, Paid Ads & Content)**\n   * *Rolle:* Vertrauensaufbau, Transport der Nischenbotschaften (Mentalcoaching, Küchentisch-Entlastung) und Dringlichkeits-Push für die Sportferienkurse.\n   * *Zielgruppe:* Instagram spricht stark leistungsorientierte Eltern (35–52 Jahre) und direkt Sekundarschüler:innen für das Kurzgymnasium an (Zielgruppen-Insights Schüler). Facebook richtet sich gezielt an Primarschul-Eltern.\n   * *Phase:* Phase 1 und Phase 2.\n   * *Begründung:* Mehrere Wettbewerber vernachlässigen Instagram/Facebook (\"wenig aktiv\" oder \"nicht auffindbar\" bei u. a. Lern-Forum, Nachhilfe Akademie, LernCenter; Wettbewerber-Report). Hier lässt sich kosteneffizient Reichweite und Markenvertrauen aufbauen.\n\n3. **Blog / Content Marketing (Organisch auf der Website)**\n   * *Rolle:* Organische SEO-Sichtbarkeit, Fachautorität und fundierte Information zur ZAP-Prüfung ohne laufende Klickkosten.\n   * *Zielgruppe:* Eltern, die Orientierung und Rat suchen (z. B. Notenberechnung, Umgang mit Prüfungsangst).\n   * *Phase:* Erstellung in Phase 1 (September–November 2026), wirkt kontinuierlich bis Phase 2 fort.\n   * *Begründung:* Deckt Informationsbedürfnisse der Eltern ab (Transparenz, kantonale Vornoten; Zielgruppen-Insights Eltern) und fängt Informationssuchanfragen organisch ab.\n\n4. **Google Business Profile (Organisch / Local SEO)**\n   * *Rolle:* Lokale Auffindbarkeit und Vertrauensanker auf Google Maps für die Suchanfragen im Raum Zürich.\n   * *Zielgruppe:* Eltern (Kriterium: zentrale Lage / Erreichbarkeit; Zielgruppen-Insights Eltern).\n   * *Phase:* Phase 1 und Phase 2 (laufende Pflege).\n   * *Begründung:* Nahezu alle Mitbewerber (10 von 10) verfügen über Google Business Profiles mit Rezensionen (Wettbewerber-Report). Ein optimierter Eintrag mit Einzugsgebiet Zürich HB / Oerlikon ist Pflicht für die lokale Relevanz.\n\n---\n\n### 4. BUDGETVERTEILUNG\n\nGesamtbudget: **CHF 2'000.00**\n\n| Kanal | Phase 1 (01.09.26 – 24.01.27) | Phase 2 (25.01.27 – 05.03.27) | Summe (CHF) |\n| :--- | :--- | :--- | :--- |\n| **Google Search Ads** | CHF 750.00 | CHF 550.00 | CHF 1'300.00 |\n| **Social Media Ads (Meta: IG/FB)** | CHF 350.00 | CHF 350.00 | CHF 700.00 |\n| **Content / Blog** | CHF 0.00 *(intern/organisch)* | CHF 0.00 *(intern/organisch)* | CHF 0.00 |\n| **Google Business Profile** | CHF 0.00 *(organisch)* | CHF 0.00 *(organisch)* | CHF 0.00 |\n| **Gesamtsumme** | **CHF 1'100.00** | **CHF 900.00** | **CHF 2'000.00** |\n\n*Begründung der Aufteilung:*  \nMit 65 % (CHF 1'300) fliesst der Hauptteil des Budgets in Google Search Ads, da Wettbewerber hier dominant vertreten sind und direkte Kaufabsichten bedient werden (Wettbewerber-Report). Phase 1 erhält CHF 1'100 (55 %) über 21 Wochen zur kontinuierlichen Rekrutierung der Vorkurse, während Phase 2 mit CHF 900 (45 %) über nur 6 Wochen eine deutlich höhere Budgetintensität pro Tag aufweist, um die dringlichen Sportferien-Intensivblöcke vor dem Prüfungstermin am 8. März 2027 vollständig auszubuchen. Social Media erhält CHF 700 (35 %), um die unterversorgte Nische des Mentalcoachings und der reinen Kurzgymi-Ferienkurse über visuelle Storys zielgenau bei Eltern und Jugendlichen zu platzieren.\n\n---\n\n### 5. ZEITPLAN\n\n#### Phase 1: Hauptkampagne Vorkurs (01. September 2026 bis 24. Januar 2027, danach Vorkurs-Begleitung bis 05. März 2027 parallel)\n* **01.09. – 30.09.2026 (Monat 1: Schulstart & Sensibilisierung):**  \n  *Fokus:* Schulstart nach den Sommerferien. Eltern auf kantonale ZAP-Quote (< 50 %) und Vornotendruck aufmerksam machen (Zielgruppen-Insights Eltern). Start Google Ads für Vorkurse; Veröffentlichung Blogartikel 1 (Vornote & ZAP-Vorbereitung).\n* **01.10. – 30.11.2026 (Monate 2–3: Anmelde-Hauptwelle Vorkurs):**  \n  *Fokus:* Start der Halbjahreskurse. Bewerbung der Kleingruppen und des Entlastungsversprechens für Familien. Gezielte Social-Media-Anzeigen zu Mathe-Textaufgaben und Aufsatz-Feedback (Zielgruppen-Insights Schüler; Nischen).\n* **01.12.2026 – 24.01.2027 (Monate 4–5: Zwischenbilanz & Standortbestimmung):**  \n  *Fokus:* Zeugnisnoten-Endspurt vor dem Zwischenzeugnis Ende Januar. Kampagnenübergang zur Bewerbung von Standortbestimmungen und Nachzügler-Plätzen für den Vorkurs.\n\n#### Phase 2: Ergänzender Push Intensivkurs (25. Januar 2027 bis 05. März 2027)\n*Startdatum Phase 2:* **Montag, 25. Januar 2027** (ca. 3 Wochen vor Beginn des ersten Sportferienblocks; Prüfungstermin: 8. März 2027).\n* **Woche 1 (25.01. – 31.01.2027):** Launch der Intensivkampagne. Botschaft: «Zwischenzeugnis da? Jetzt Lücken schliessen in den Sportferien». Fokus auf Block 1 (15.–19.02.) und Block 2 (22.–26.02.).\n* **Woche 2 (01.02. – 07.02.2027):** Push der unterversorgten Nische «Spezifischer Kurzgymi-Sportferienkurs» (Nischen) via Instagram und Google Search Ads. Veröffentlichung Blogartikel 2 (Prüfungsangst & Zeitmanagement).\n* **Woche 3 (08.02. – 14.02.2027):** Letzte Chance für Block 1 (Start 15.02.). Dringlichkeits-Ads: «Noch 2 Plätze im Sportferien-Intensivtraining».\n* **Woche 4 (15.02. – 21.02.2027):** Durchführung Block 1. Kampagnenfokus 100 % auf Block 2 (Start 22.02.). Retargeting unentschlossener Website-Besucher.\n* **Woche 5 (22.02. – 28.02.2027):** Durchführung Block 2. Kampagnen-Endspurt: Fokus auf mentale Vorbereitung, finale ZAP-Tipps und Ruhe bewahren.\n* **Woche 6 (01.03. – 05.03.2027):** Letzte Tage vor der ZAP (08.03.2027). Ads auf Sparflamme/Support; Fokus auf Zuspruch, Anreisehinweise, Checkliste für den Prüfungstag auf Social Media.\n\n---\n\n### 6. GOOGLE SEARCH ADS\n\n#### Phase 1 (01.09.2026 – 24.01.2027: 146 Tage = ca. 21 Wochen)\n* **Budget:** CHF 750.00 gesamt.\n  * **Wochenbudget:** ca. CHF 35.70 (CHF 750 / 21 Wochen).\n  * **Tagesbudget:** ca. CHF 5.10 (CHF 750 / 146 Tage).\n* **Gebotsstrategie:** *Klicks maximieren mit CPC-Obergrenze (Max CPC Cap)*, um bei dem kleinen Tagesbudget Klickpreis-Spitzen zu verhindern und konstante Klickzahlen zu sichern.\n* **Angestrebte Anzeigenposition:** Position 2 bis 3 (oberhalb der organischen Treffer, aber bewusst unterhalb der extrem teuren Position 1 der grossen Platzhirsche; Wettbewerber-Report).\n\n#### Phase 2 (25.01.2027 – 05.03.2027: 40 Tage = ca. 5.7 Wochen)\n* **Budget:** CHF 550.00 gesamt.\n  * **Wochenbudget:** ca. CHF 96.50 (CHF 550 / 5.7 Wochen).\n  * **Tagesbudget:** ca. CHF 13.75 (CHF 550 / 40 Tage).\n* **Gebotsstrategie:** *Manuelles CPC-Gebot mit Ausrichtung auf Klick-Conversion*, um Gebote für dringliche Keywords kurzfristig und granular hochzusetzen.\n* **Angestrebte Anzeigenposition:** Position 1 bis 2 für Intensivkurs-Keywords, um die maximale Aufmerksamkeit von Last-Minute-Suchenden vor den Sportferien abzufangen.\n\n#### Keyword-Gruppen (aus der Keyword-Liste des Reports)\n\n| Keyword-Gruppe | Enthaltene Keywords aus Report | Zugeordnetes Segment | Gebotshöhe | Klickpreis-Annahme & Begründung |\n| :--- | :--- | :--- | :--- | :--- |\n| **Gruppe 1: Generisch & Langzeit Vorkurs** | «Gymivorbereitung Zürich», «ZAP Vorbereitungskurs Zürich», «Gymiprüfung Langgymnasium Vorbereitung», «Gymikurs Samstag Zürich» | Langzeit-Vorkurs (übersättigt; Matrix: langzeit_vorkurs = 10) | **Mittel bis Hoch** | *(Annahme: CPC CHF 2.50 – 3.80)*. Stark umkämpft durch Grossanbieter (Lernstudio, Lern-Forum; Wettbewerber-Report). Klickpreis wird durch Max CPC gedeckelt. |\n| **Gruppe 2: Kurzgymi Spezifisch** | «Kurzgymi Vorbereitung Zürich» | Kurzzeit-Vorkurs & Kurzzeit-Intensivkurs (unterversorgte Nische bei Intensivblöcken; Nischen) | **Mittel** | *(Annahme: CPC CHF 1.80 – 2.60)*. Gezieltere Suchabsicht, weniger Konkurrenz als bei 6.-Klass-Keywords, da viele Wettbewerber Kurzgymi nur am Rande führen (Nischen). |\n| **Gruppe 3: Intensiv- & Ferienkurse** | «Intensivkurs Sportferien Gymiprüfung Zürich» | Langzeit- & Kurzzeit-Intensivkurs (Phase 2 Kernsegment) | **Hoch** (in Phase 2) | *(Annahme: CPC CHF 3.00 – 4.50)*. Hohe Dringlichkeit und Conversion-Rate kurz vor den Sportferienblöcken (15.–26.02.2027). |\n| **Gruppe 4: Nischen & Qualität** | «Gymivorbereitung Kleingruppe Zürich HB», «Aufsatztraining Gymiprüfung Zürich», «ZAP Prüfungssimulation Zürich», «Gymivorbereitung Kosten Zürich» | Nischenfokus (Mentalcoaching, Aufsatz, Kleingruppen; Zielgruppen-Insights & Nischen) | **Niedrig bis Mittel** | *(Annahme: CPC CHF 1.20 – 2.00)*. Geringerer Wettbewerb auf Longtail-Keywords; hohe Relevanz für qualitätsbewusste Eltern. |\n\n---\n\n### 7. ÜBERGABE AN DEN CONTENT-AGENTEN\n\n#### PHASE 1: Kontinuierlich, vertrauensbildend (01.09.2026 – 24.01.2027)\n\n* **Google Search Ads (Phase 1):**\n  * *Zielgruppe:* Eltern von 6.-Klässlern und 2./3.-Sek-Schüler:innen in Zürich.\n  * *Kernbotschaft:* Strukturierte Vorbereitung in Kleingruppen mit transparenter Notenprognose – entlastet das Kind und den Familienalltag.\n  * *Tonalität:* Seriös, entlastend, qualitätsorientiert, verlässlich.\n  * *Call-to-Action:* «Jetzt unverbindlich Einstufung anfordern» / «Jetzt Platz in Kleingruppe sichern».\n  * *Schlüsselbegriffe:* Kleingruppen Zürich, ZAP Vorbereitungskurs, Aufsatztraining, kantonale Erfolgsquote.\n  * *Zu vermeiden:* Reisserische Erfolgsgarantien («100 % Erfolgsquote»), Billigpreis-Versprechen, übertriebene Panikmache vor der Prüfung.\n\n* **Social Media (Instagram / Facebook – Phase 1):**\n  * *Konkretes Thema / Post-Konzept:* Bild-Karussell: «Schluss mit ZAP-Tränen am Küchentisch: 4 Gründe, warum häusliches Lernen oft scheitert – und wie wir Eltern entlasten.»\n  * *Zielgruppe:* Eltern (35–52 Jahre), speziell Mütter/Väter im Raum Zürich.\n  * *Kernbotschaft:* Professionelle Lernbegleitung schützt den Familienfrieden und bringt dem Kind klare Schemata statt Frust.\n  * *Tonalität:* Empathisch, verständnisvoll, lösungsorientiert.\n  * *Call-to-Action:* «Mehr erfahren & Infotermin vereinbaren».\n  * *Schlüsselbegriffe:* Familienfrieden, ZAP Vorbereitung, Kleingruppe Zürich HB, Prüfungssimulation.\n  * *Zu vermeiden:* Schuldzuweisungen an Eltern oder Lehrpersonen der Volksschule.\n\n* **Blog (Phase 1):**\n  * *Konkreter Titelvorschlag:* «Der ZAP-Notenrechner für Zürich: Wie die Vornote zählt und wie Sie Ihr Kind ohne Streit am Küchentisch unterstützen.»\n  * *Zielgruppe:* Orientierungssuchende Eltern vor der Prüfungsanmeldung.\n  * *Kernbotschaft:* Transparente Aufklärung über die ZAP-Mechanik, Erfahrungsnoten und den Mehrwert strukturierter Kleingruppenbegleitung.\n  * *Tonalität:* Fachlich fundiert, sachlich, beratend, vertrauenswürdig.\n  * *Call-to-Action:* «Laden Sie unsere ZAP-Checkliste herunter oder buchen Sie eine kostenlose Standortbestimmung.»\n  * *Schlüsselbegriffe:* Gymivorbereitung Zürich, ZAP Vorbereitungskurs Zürich, Gymivorbereitung Kosten Zürich, Aufsatztraining Gymiprüfung Zürich.\n  * *Zu vermeiden:* Trockene Paragraphenreiterei ohne praktischen Nutzen für Eltern.\n\n---\n\n#### PHASE 2: Dringlichkeitsorientiert & Endspurt (25.01.2027 – 05.03.2027)\n\n* **Google Search Ads (Phase 2):**\n  * *Zielgruppe:* Eltern von Spätentscheidern und Sek-Schüler:innen vor der ZAP am 8. März.\n  * *Kernbotschaft:* Sportferien-Intensivkurs in Zürich: In 5 Tagen Prüfungsangst abbauen, Zeitmanagement trainieren und ZAP-Simulation bestehen.\n  * *Tonalität:* Dringlich, ermutigend, fokussiert, aktivierend.\n  * *Call-to-Action:* «Letzte Plätze Sportferien buchen» / «Jetzt ZAP-Intensivblock wählen».\n  * *Schlüsselbegriffe:* Intensivkurs Sportferien Gymiprüfung Zürich, ZAP Prüfungssimulation Zürich, Kurzgymi Vorbereitung Zürich, Kleingruppe Zürich HB.\n  * *Zu vermeiden:* Suggestion, dass es bereits zu spät sei; Angebote für Langzeit-Vorkurse bewerben.\n\n* **Social Media (Instagram / Facebook – Phase 2):**\n  * *Konkretes Thema / Ad-Video/Reel:* Kurzvideo/Story: «45 Minuten für den ZAP-Aufsatz und ein Blackout bei Mathe-Textaufgaben? 3 Strategien, wie du in den Sportferien die Ruhe bewahrst.» (Speziell auch für Kurzgymi-Interessierte; Nischen & Zielgruppen-Insights Schüler).\n  * *Zielgruppe:* Jugendliche (Sekundarstufe) und deren Eltern im Kanton Zürich.\n  * *Kernbotschaft:* Gezieltes Mentalcoaching und Prüfungssimulationen in den Sportferien nehmen die Prüfungsangst kurz vor dem 8. März.\n  * *Tonalität:* Motivierend, dynamisch, pragmatisch («Du schaffst das»).\n  * *Call-to-Action:* «Sichere dir deinen Platz im Sportferienblock (15.–19.2. oder 22.–26.2.)!»\n  * *Schlüsselbegriffe:* Intensivkurs Sportferien, Prüfungssimulation, Aufsatztraining, Prüfungsblockaden lösen.\n  * *Zu vermeiden:* Abstrakte Lerntheorien; monotone Textwüsten.\n\n* **Blog (Phase 2):**\n  * *Konkreter Titelvorschlag:* «Sportferien-Countdown zur ZAP: Wie Schüler in 5 Intensivtagen Prüfungsblockaden und Zeitnot überwinden.»\n  * *Zielgruppe:* Eltern und Schüler:innen in der heissen Phase (Februar 2027).\n  * *Kernbotschaft:* In den zwei Sportferienwochen entscheidet sich das Selbstvertrauen: Mit gezielten Prüfungssimulationen und Zeitmanagement-Tricks wird der Prüfungstag am 8. März zum Erfolg.\n  * *Tonalität:* Bestärkend, strategisch, handlungsorientiert.\n  * *Call-to-Action:* «Jetzt für Block 1 (15.–19.02.) oder Block 2 (22.–26.02.) anmelden.»\n  * *Schlüsselbegriffe:* Intensivkurs Sportferien Gymiprüfung Zürich, ZAP Prüfungssimulation Zürich, Kurzgymi Vorbereitung, Aufsatztraining.\n  * *Zu vermeiden:* Resignation oder Verharmlosung des Prüfungsanspruchs.\n\n---\n\n### 8. ANNAHMEN UND RISIKEN\n\n* **Restriktives Gesamtbudget (CHF 2'000):** *(Annahme)* Es wird angenommen, dass die durchschnittlichen Klickpreise (CPC) im Zürcher Bildungsmarkt für Google Ads zwischen CHF 1.20 (Longtail) und CHF 4.50 (stark umkämpfte Keywords) liegen. Bei diesem Budget können über 6 Monate geschätzt ca. 450 bis 650 hochqualifizierte Klicks generiert werden. Das Tagesbudget in Phase 1 (CHF 5.10) erlaubt keine breite Keyword-Streuung.\n* **Organische Eigenleistung für Content:** *(Annahme)* Das Mediabudget von CHF 2'000 fliesst zu 100 % in Paid Ads (Google und Meta). Es wird zwingend vorausgesetzt, dass die Content-Erstellung (Blog, Google Business Profile) intern ohne externe Mediagebühren erfolgt.\n* **Fehlende Konkurrenz-Budgetdaten:** Der Research-Report liefert lediglich qualitative Hinweise auf Google Ads bei Mitbewerbern («Hinweise vorhanden»), nennt aber keine konkreten Klickpreise, Konkurrenzbudgets oder Marktanteile (Research-Report). Das Risiko unvorhergesehener CPC-Explosionen im Januar/Februar muss über strikte Gebotsobergrenzen (Max CPC Caps) kontrolliert werden.\n* **Konversionsrate der Landingpage:** *(Annahme)* Der Erfolg der Kampagne steht und fällt mit einer hochkonvertierenden Website/Landingpage mit klarer Nischen-Hervorhebung (Mentalcoaching, separate Kurzgymi-Klassen). Ist die Landingpage unklar, verpufft das schmale Werbebudget ohne Anmeldungen.\n* **Fehlende Angaben zu exakten Kursterminen ausserhalb der Sportferien:** Der Report enthält keine spezifischen Kurstage (ausser Samstags-Hinweisen bei Konkurrenten; Übersättigte Segmente) und keine Preise des eigenen Angebots. Kampagnentexte müssen sich daher auf Kleingruppen, Standortnähe (Zürich HB) und Betreuungsqualität stützen, ohne konkrete Franken-Preise zu nennen."
+              },
+              "use_global_variable": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Use Global Variable",
+                "dynamic": false,
+                "info": "Enable to select from global variables (shows globe icon). Disables multiline editing.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_global_variable",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-9erKh",
+        "position": {
+          "x": 481,
+          "y": 547
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt Template-hTb3B",
+          "node": {
+            "add_tool_output": null,
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "research_report",
+                "strategie",
+                "content"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Prompt Template",
+            "documentation": "https://docs.langflow.org/components-prompts",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "use_double_brackets",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "lf_version": "1.12.0",
+            "metadata": {
+              "code_hash": "e3714ffe5d15",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.models_and_agents.prompt.PromptComponent"
+            },
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "replacement": null,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.prompts.api_utils import process_prompt_template\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.inputs.input_mixin import FieldTypes\nfrom lfx.inputs.inputs import DefaultPromptField\nfrom lfx.io import BoolInput, MessageTextInput, Output, PromptInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.template.utils import update_template_values\nfrom lfx.utils.mustache_security import validate_mustache_template\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt Template\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    documentation: str = \"https://docs.langflow.org/components-prompts\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt Template\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        BoolInput(\n            name=\"use_double_brackets\",\n            display_name=\"Use Double Brackets\",\n            value=False,\n            advanced=True,\n            info=\"Use {{variable}} syntax instead of {variable}.\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            show=False,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        \"\"\"Update the template field type based on the selected mode.\"\"\"\n        if field_name == \"use_double_brackets\":\n            # Change the template field type based on mode\n            is_mustache = field_value is True\n            if is_mustache:\n                build_config[\"template\"][\"type\"] = FieldTypes.MUSTACHE_PROMPT.value\n            else:\n                build_config[\"template\"][\"type\"] = FieldTypes.PROMPT.value\n\n            # Re-process the template to update variables when mode changes\n            template_value = build_config.get(\"template\", {}).get(\"value\", \"\")\n            if template_value:\n                # Ensure custom_fields is properly initialized\n                if \"custom_fields\" not in build_config:\n                    build_config[\"custom_fields\"] = {}\n\n                # Clean up fields from the OLD mode before processing with NEW mode\n                # This ensures we don't keep fields with wrong syntax even if validation fails\n                old_custom_fields = build_config[\"custom_fields\"].get(\"template\", [])\n                for old_field in list(old_custom_fields):\n                    # Remove the field from custom_fields and template\n                    if old_field in old_custom_fields:\n                        old_custom_fields.remove(old_field)\n                    build_config.pop(old_field, None)\n\n                # Try to process template with new mode to add new variables\n                # If validation fails, at least we cleaned up old fields\n                try:\n                    # Validate mustache templates for security\n                    if is_mustache:\n                        validate_mustache_template(template_value)\n\n                    # Re-process template with new mode to add new variables\n                    _ = process_prompt_template(\n                        template=template_value,\n                        name=\"template\",\n                        custom_fields=build_config[\"custom_fields\"],\n                        frontend_node_template=build_config,\n                        is_mustache=is_mustache,\n                    )\n                except ValueError as e:\n                    # If validation fails, we still updated the mode and cleaned old fields\n                    # User will see error when they try to save\n                    logger.debug(\"Template validation failed during mode switch\", exc_info=e)\n        return build_config\n\n    async def build_prompt(self) -> Message:\n        use_double_brackets = self.use_double_brackets if hasattr(self, \"use_double_brackets\") else False\n        template_format = \"mustache\" if use_double_brackets else \"f-string\"\n        prompt = await Message.from_template_and_variables(template_format=template_format, **self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(prompt_template)\n\n            custom_fields = frontend_node[\"custom_fields\"]\n            frontend_node_template = frontend_node[\"template\"]\n            _ = process_prompt_template(\n                template=prompt_template,\n                name=\"template\",\n                custom_fields=custom_fields,\n                frontend_node_template=frontend_node_template,\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be created\n            logger.debug(\"Template validation failed in _update_template\", exc_info=e)\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(template)\n\n            # Kept it duplicated for backwards compatibility\n            _ = process_prompt_template(\n                template=template,\n                name=\"template\",\n                custom_fields=frontend_node[\"custom_fields\"],\n                frontend_node_template=frontend_node[\"template\"],\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be updated\n            logger.debug(\"Template validation failed in update_frontend_node\", exc_info=e)\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "content": {
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "content",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "content",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "research_report": {
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "research_report",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "research_report",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "strategie": {
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "strategie",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "strategie",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "prompt",
+                "value": "Du bist der Zusammenfuehrungs- und Optimierungs-Agent einer Marketing-Pipeline. Die\nPipeline plant eine Kampagne fuer einen fiktiven Anbieter von Gymi-Vorbereitungskursen in\nZuerich (Langzeitgymnasium/ZAP und Kurzzeitgymnasium). Du erhaeltst die Ergebnisse der drei\nvorherigen Agenten und erstellst daraus einen kohaerenten Kampagnenplan, pruefst alles auf\nKonsistenz und leitest Optimierungsvorschlaege ab.\n\nINPUT\n1. Research-Report (JSON): {research_report}\n2. Strategie-Dokument: {strategie}\n3. Generierte Inhalte (Ads, Social, Blog je Phase): {content}\n\nGRUNDREGELN\n1. Veraendere die Inhalte nicht und schreibe sie nicht neu. Die Originaltexte werden dem\n   Ergebnis spaeter unveraendert angehaengt. Du beurteilst sie nur.\n2. Jede Feststellung nennt die Fundstelle (z. B. \"Content Phase 1, Blogartikel, letzter\n   Absatz\" oder \"Strategie, Abschnitt 4\").\n3. Pruefe nur, was du im Input tatsaechlich siehst. Erfinde keine Probleme und keine\n   Zahlen. Wenn alles in Ordnung ist, sage das.\n4. Zaehle bei Pruefungen von Mengen die betroffenen Eintraege zuerst namentlich auf und\n   nenne erst danach die Zahl. Rechne Summen nach.\n5. Zeichenlaengen zaehlst du nicht. Sie werden separat geprueft.\n6. Behaupte nichts zu Sachfakten ueber die Zuercher Aufnahmepruefung (Dauer, Gewichtung,\n   Erfolgsquoten), die nicht im Research-Report belegt sind. Markiere solche Aussagen im\n   Content als \"nicht im Report belegt, extern zu pruefen\".\n\nAUFGABEN\n\n1. MANAGEMENT-ZUSAMMENFASSUNG (max. 8 Zeilen)\n   Ziel, Zielgruppe, Kernbotschaft, Phasen mit Daten, Budget je Phase und Kanal,\n   wichtigste Nische.\n\n2. KAMPAGNENPLAN\n   Tabelle mit Zeilen = Phase 1 und Phase 2 und Spalten: Zeitraum, Fokus, Kanaele,\n   Budget (CHF), Kernbotschaft/Akzent, zugehoerige Content-Bausteine. Darunter die\n   Gesamtbudgetsumme (muss CHF 2'000 ergeben; rechne nach und melde Abweichungen).\n\n3. KONSISTENZPRUEFUNG\n   Pruefe und bewerte je Punkt \"in Ordnung\" oder \"Abweichung\" mit Fundstelle und kurzer\n   Begruendung:\n   a) Kernbotschaft: wird sie in allen Assets einheitlich getragen?\n   b) Anrede (Eltern Sie, Schueler:innen du): gibt es Brueche innerhalb eines Textes?\n   c) Tonalitaet je Phase: Phase 1 vertrauensbildend, Phase 2 dringlichkeitsorientiert?\n   d) Termine und Zahlen: stimmen Daten (Phasen, Sportferienbloecke, Pruefungstermin),\n      Blockanzahl und Budgetzahlen zwischen Strategie und Content und innerhalb der\n      Strategie ueberein?\n   e) Phasenlogik: entsprechen die Phasen den Vorgaben in der Strategie (Phase 1\n      durchgehend bis 5.3.2027, Phase 2 parallel ab Ende Januar/Anfang Februar)?\n   f) Strategie-Umsetzung: Wurden Schluesselbegriffe, Call-to-Actions und Themen aus dem\n      Abschnitt \"Uebergabe an den Content-Agenten\" aufgenommen, und wurde die\n      Vermeiden-Liste eingehalten?\n   g) Widersprueche zwischen Ads, Social und Blog (z. B. unterschiedliche Leistungen,\n      Zielgruppen oder Terminangaben).\n   h) Herleitung Research -> Strategie: Stimmen die in der Strategie zitierten Zahlen\n      (z. B. Anzahl Anbieter mit Ads-Hinweisen, Instagram-Aktivitaet, Matrixwerte) mit dem\n      Research-Report ueberein? Zaehle nach Regel 4.\n   i) Sachbehauptungen und Versprechen im Content, die nicht im Research-Report belegt\n      sind (z. B. Erfolgsquoten, Pruefungsdauer, erfundene Verknappung, nicht vorgegebene\n      Leistungen).\n\n4. OPTIMIERUNGSVORSCHLAEGE (mindestens 8)\n   Tabelle mit den Spalten: Nr., Art (A/B-Test, Inhaltsluecke, Inkonsistenz, Risiko),\n   Konkreter Vorschlag, Herleitung (Fundstelle in Research, Strategie oder Content, aus der\n   der Vorschlag folgt), Erwarteter Nutzen, Messgroesse oder Pruefschritt, Prioritaet\n   (hoch/mittel/niedrig). Mindestens drei Vorschlaege sind A/B-Test-Ideen fuer\n   Anzeigentexte mit klarer Hypothese. Mindestens zwei beheben gefundene Abweichungen aus\n   Abschnitt 3. Jeder Vorschlag muss aus einem Befund der drei Inputs ableitbar sein;\n   keine allgemeinen Marketing-Tipps ohne Bezug.\n\n5. OFFENE PUNKTE (max. 6 Stichpunkte)\n   Was muss vor einer echten Veroeffentlichung extern geprueft werden (Fakten, Preise,\n   rechtliche Aussagen, Leistungen des Anbieters)?\n\nAUSGABEFORMAT\nAntworte auf Deutsch mit den Ueberschriften 1 bis 5 in dieser Reihenfolge, kompakt, mit\nMarkdown-Tabellen, ohne Einleitung und ohne Schlussfloskel."
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "use_double_brackets": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Use Double Brackets",
+                "dynamic": false,
+                "info": "Use {{variable}} syntax instead of {variable}.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_double_brackets",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt Template"
+        },
+        "dragging": false,
+        "id": "Prompt Template-hTb3B",
+        "position": {
+          "x": 975.9192383737716,
+          "y": 534.2065663586195
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "_connectionMode": false,
+          "id": "LanguageModelComponent-ThskC",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Runs a language model given a specified provider.",
+            "display_name": "Language Model",
+            "documentation": "https://docs.langflow.org/components-models",
+            "edited": false,
+            "field_order": [
+              "model",
+              "model_name",
+              "provider",
+              "api_key",
+              "base_url_ibm_watsonx",
+              "project_id",
+              "ollama_base_url",
+              "input_value",
+              "system_message",
+              "stream",
+              "temperature",
+              "max_tokens"
+            ],
+            "frozen": false,
+            "icon": "brain-circuit",
+            "last_updated": "2026-10-12T17:09:35.703Z",
+            "legacy": false,
+            "lf_version": "1.12.0",
+            "metadata": {
+              "code_hash": "0728717be772",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "model_provider_policy_mode": "delegate",
+              "module": "lfx.components.models_and_agents.language_model.LanguageModelComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "ae8fc7ca-dcc4-40b2-b143-414a0746cc9e"
+              },
+              "_frontend_node_folder_id": {
+                "value": "3c2d1492-440a-409d-8554-f8c437853349"
+              },
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "API Key",
+                "dynamic": false,
+                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "base_url_ibm_watsonx": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "api_editable": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API (IBM watsonx.ai only)",
+                "name": "base_url_ibm_watsonx",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.models_and_agents.model_selection import apply_model_overrides\nfrom lfx.field_typing.constants import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, StrInput\nfrom lfx.io import IntInput, MessageInput, ModelInput, MultilineInput, SecretStrInput, SliderInput\n\n\nclass LanguageModelComponent(LCModelComponent):\n    model_provider_policy_mode = \"delegate\"\n    display_name = \"Language Model\"\n    description = \"Runs a language model given a specified provider.\"\n    documentation: str = \"https://docs.langflow.org/components-models\"\n    icon = \"brain-circuit\"\n    category = \"models\"\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        StrInput(\n            name=\"model_name\",\n            display_name=\"Model Name Override\",\n            info=(\n                \"Optional model name to use instead of the selected model. \"\n                \"Can be set from a global variable for runtime model selection.\"\n            ),\n            advanced=True,\n            load_from_db=False,\n        ),\n        StrInput(\n            name=\"provider\",\n            display_name=\"Provider Override\",\n            info=(\n                \"Optional provider to use with Model Name Override. Leave blank to use the selected model's provider.\"\n            ),\n            advanced=True,\n            load_from_db=False,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            required=False,\n            show=True,\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        StrInput(\n            name=\"ollama_base_url\",\n            display_name=\"Ollama API URL\",\n            info=\"Endpoint of the Ollama API (Ollama only)\",\n            show=False,\n            real_time_refresh=True,\n        ),\n        MessageInput(\n            name=\"input_value\",\n            display_name=\"Input\",\n            info=\"The input text to send to the model\",\n        ),\n        MultilineInput(\n            name=\"system_message\",\n            display_name=\"System Message\",\n            info=\"A system message that helps set the behavior of the assistant\",\n            advanced=False,\n        ),\n        BoolInput(\n            name=\"stream\",\n            display_name=\"Stream\",\n            info=\"Whether to stream the response\",\n            value=False,\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            info=\"Controls randomness in responses\",\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        model = apply_model_overrides(\n            self.model,\n            model_name=getattr(self, \"model_name\", None),\n            provider=getattr(self, \"provider\", None),\n            user_id=self.user_id,\n            get_options=get_language_model_options,\n        )\n        return get_llm(\n            model=model,\n            user_id=self.user_id,\n            api_key=self.api_key,\n            temperature=self.temperature,\n            stream=self.stream,\n            max_tokens=getattr(self, \"max_tokens\", None),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n            ollama_base_url=getattr(self, \"ollama_base_url\", None),\n        )\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None):\n        \"\"\"Dynamically update build config with user-filtered model options.\"\"\"\n        return handle_model_input_update(self, build_config, field_value, field_name)\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The input text to send to the model",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": true,
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 1,
+                  "step": 1,
+                  "step_type": "int"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 0
+              },
+              "model": {
+                "_input_type": "ModelInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Language Model",
+                "dynamic": false,
+                "external_options": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "display_name": "Connect other models",
+                        "icon": "CornerDownLeft",
+                        "name": "connect_other_models"
+                      }
+                    }
+                  }
+                },
+                "info": "Select your model provider",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "model_type": "language",
+                "name": "model",
+                "options": [
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "whisper-large-v3-turbo",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "qwen/qwen3.8-27b",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "whisper-large-v3",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "canopylabs/orpheus-arabic-saudi",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "openai/gpt-oss-120b",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "Google Generative AI",
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gemini-3.8-flash"
+                      ]
+                    },
+                    "name": "gemini-3.8-flash",
+                    "provider": "Google Generative AI"
+                  },
+                  {
+                    "category": "Google Generative AI",
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gemini-flash-latest"
+                      ]
+                    },
+                    "name": "gemini-flash-latest",
+                    "provider": "Google Generative AI"
+                  },
+                  {
+                    "category": "Google Generative AI",
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gemini-3.7-flash"
+                      ]
+                    },
+                    "name": "gemini-3.7-flash",
+                    "provider": "Google Generative AI"
+                  },
+                  {
+                    "category": "Google Generative AI",
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gemini-flash-lite-latest"
+                      ]
+                    },
+                    "name": "gemini-flash-lite-latest",
+                    "provider": "Google Generative AI"
+                  },
+                  {
+                    "category": "Google Generative AI",
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gemini-3.6-flash"
+                      ]
+                    },
+                    "name": "gemini-3.6-flash",
+                    "provider": "Google Generative AI"
+                  },
+                  {
+                    "category": "Google Generative AI",
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gemini-2.5-flash"
+                      ]
+                    },
+                    "name": "gemini-2.5-flash",
+                    "provider": "Google Generative AI"
+                  },
+                  {
+                    "category": "OpenAI Compatible",
+                    "icon": "Plug",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "base_url_param": "base_url",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "allam-2-7b",
+                    "provider": "OpenAI Compatible"
+                  },
+                  {
+                    "category": "OpenAI Compatible",
+                    "icon": "Plug",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "base_url_param": "base_url",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "canopylabs/orpheus-arabic-saudi",
+                    "provider": "OpenAI Compatible"
+                  },
+                  {
+                    "category": "OpenAI Compatible",
+                    "icon": "Plug",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "base_url_param": "base_url",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "canopylabs/orpheus-v1-english",
+                    "provider": "OpenAI Compatible"
+                  },
+                  {
+                    "category": "OpenAI Compatible",
+                    "icon": "Plug",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "base_url_param": "base_url",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "meta-llama/llama-prompt-guard-2-22m",
+                    "provider": "OpenAI Compatible"
+                  },
+                  {
+                    "category": "OpenAI Compatible",
+                    "icon": "Plug",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "base_url_param": "base_url",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "meta-llama/llama-prompt-guard-2-86m",
+                    "provider": "OpenAI Compatible"
+                  }
+                ],
+                "override_skip": false,
+                "placeholder": "Setup Provider",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "model",
+                "value": [
+                  {
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gemini-3.8-flash"
+                      ]
+                    },
+                    "name": "gemini-3.8-flash",
+                    "provider": "Google Generative AI"
+                  }
+                ]
+              },
+              "model_name": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Model Name Override",
+                "dynamic": false,
+                "info": "Optional model name to use instead of the selected model. Can be set from a global variable for runtime model selection.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "ollama_base_url": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Ollama API URL",
+                "dynamic": false,
+                "info": "Endpoint of the Ollama API (Ollama only)",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "ollama_base_url",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "provider": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Provider Override",
+                "dynamic": false,
+                "info": "Optional provider to use with Model Name Override. Leave blank to use the selected model's provider.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "provider",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Whether to stream the response",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "A system message that helps set the behavior of the assistant",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness in responses",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.2
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "text_output",
+          "showNode": true,
+          "type": "LanguageModelComponent"
+        },
+        "dragging": false,
+        "id": "LanguageModelComponent-ThskC",
+        "position": {
+          "x": 1380.2470018411245,
+          "y": 574.6393427053549
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-amE2c",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "data_template",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.12.0",
+            "metadata": {
+              "code_hash": "84009527d08c",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "orjson",
+                    "version": "3.11.9"
+                  },
+                  {
+                    "name": "fastapi",
+                    "version": "0.139.2"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.input_output.chat_output.ChatOutput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean data before converting to string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.helpers.data import safe_convert\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.schema.properties import Source\nfrom lfx.template.field.base import Output\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"JSON\", \"DataFrame\", \"Table\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            advanced=True,\n            info=\"Whether to clean data before converting to string.\",\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, _, display_name, source_id = self.get_properties_from_source_component()\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message) and not self.is_connected_to_chat_input():\n            message = self.input_value\n            # Update message properties\n            message.text = text\n            # Preserve existing session_id from the incoming message if it exists\n            existing_session_id = message.session_id\n        else:\n            message = Message(text=text)\n            existing_session_id = None\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        # Preserve session_id from incoming message, or use component/graph session_id\n        message.session_id = (\n            self.session_id or existing_session_id or (self.graph.session_id if hasattr(self, \"graph\") else None) or \"\"\n        )\n        message.context_id = self.context_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n\n        # Store message if needed\n        if message.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        # Set accumulated token usage from all upstream LLM vertices.\n        # This must happen AFTER send_message() because streaming captures\n        # usage from chunks and would overwrite accumulated totals.\n        if hasattr(self, \"_vertex\") and self._vertex is not None:\n            accumulated_usage = self._vertex._accumulate_upstream_token_usage()  # noqa: SLF001\n            if accumulated_usage:\n                message.properties.usage = accumulated_usage\n                if self.should_store_message and message.get_id():\n                    message = await self._update_stored_message(message)\n                    await self._send_message_event(message, id_=message.get_id())\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            clean_data: bool = getattr(self, \"clean_data\", False)\n            return \"\\n\".join([safe_convert(item, clean_data=clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "JSON",
+                  "DataFrame",
+                  "Table",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "api_editable": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "id": "ChatOutput-amE2c",
+        "position": {
+          "x": 1869.8114289583516,
+          "y": 984.4309948682125
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": -248.2195001364285,
+      "y": -42.72946118437284,
+      "zoom": 0.6140567236453027
+    }
+  },
+  "description": "Engineered for Excellence, Built for Business.",
+  "endpoint_name": null,
+  "id": "ae8fc7ca-dcc4-40b2-b143-414a0746cc9e",
+  "is_component": false,
+  "last_tested_version": "1.12.0",
+  "locked": false,
+  "name": "Marketing Overall-Agent",
+  "tags": []
+}
