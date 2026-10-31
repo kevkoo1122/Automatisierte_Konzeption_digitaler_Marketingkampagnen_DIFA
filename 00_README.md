@@ -33,6 +33,7 @@ Ziel, Methodik, Ergebnisse und Reflexion stehen im Abschlussbericht.
 | `anbieterliste_komplett_21.csv` | Eingabeliste mit 21 Anbietern (Variante A) |
 | `Ground_Truth_Liste.pdf` | Referenzliste: 40 geprüfte Anbieter, davon 35 aufgenommen |
 | `Kampagnenplanung_Variante_A.pdf`, `Kampagnenplanung_Variante_B.pdf` | Finale Ausgaben der beiden Läufe |
+| `Abrechnung Google Cloud.pdf` | Finale Abrechnung für die Nutzung der Google Cloud bzw. Gemini API |
 
 ## Voraussetzungen
 
